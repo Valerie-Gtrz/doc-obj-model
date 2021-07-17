@@ -35,7 +35,7 @@ function highlightArticle() {
         evtBtn.innerText = "-"; //set the text on targeted button to '-'
       } else if (evtBtn.innerText === "-") { //if inner text of button is '-'
         article.classList.remove("highlight"); //remove highlight class from parentNode
-        evtBtn.innerText = "+"; //if inner text is not '+'
+        evtBtn.innerText = "+"; //set the text on targeted button to '+'
       }
     });
   });
